@@ -1,9 +1,16 @@
 <script setup>
- 
+
 </script>
 
 <template>
- <div></div>
+  <div class="flex flex-col">
+  <div>
+    
+  </div>
+ <div>
+    
+ </div>
+  </div>
 </template>
 <style scoped>
  
