@@ -1,13 +1,14 @@
 <script setup>
-import { ref, defineEmits } from 'vue'
+import { ref } from 'vue'
 
 const value = ref(10)
 
  defineProps({
    title: String,
-   id: String
+   id: String,
+   type: String,
  })
-defineEmits(['update:value'])
+// defineEmits(['update:value'])
 
  
 </script>
